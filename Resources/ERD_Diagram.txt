@@ -1,0 +1,20 @@
++-------------+     +-------------+     +-------------+     +--------------+
+|  contacts   |     |   category  |     | subcategory |     |   campaign   |
++-------------+     +-------------+     +-------------+     +--------------+
+| contact_id  |     | category_id |     | subcategory_id |  |   cf_id       |
+| first_name  |     | category_name |   | subcategory_name| | contact_id   FK|
+| last_name   |     +-------------+     | category_id  FK | | company_name  |
+| email       |                        +-------------+    | description   |
++-------------+                                           | goal          |
+                                                         | pledged       |
+                                                         | outcome       |
+                                                         | backers_count |
+                                                         | country       |
+                                                         | currency      |
+                                                         | launch_date   |
+                                                         | end_date      |
+                                                         | staff_pick    |
+                                                         | spotlight     |
+                                                         | category_id FK|
+                                                         | subcategory_id FK|
+                                                         +--------------+
